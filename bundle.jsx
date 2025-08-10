@@ -1,8 +1,7 @@
-// Derived bundle for running locally without changing original files
-// React hooks available as globals for this bundle
+
 const { useState, useEffect } = React;
 
-// ==== Counter.js (import removed) ====
+
 const Counter = ({ counter, setCounter, onAddToList }) => {
   const increment = () => setCounter(prev => prev + 1);
   const decrement = () => setCounter(prev => prev > 0 ? prev - 1 : 0);
