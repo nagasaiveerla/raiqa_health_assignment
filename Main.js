@@ -1,8 +1,7 @@
 export default function CounterListApp() {
-  const [counter, setCounter] = useState(4); // Starting with 4 as shown in the sample
-  const [numbers, setNumbers] = useState([21, 14, 12, 6]); // Sample data
-  const [sortOrder, setSortOrder] = useState('desc'); // 'asc' or 'desc'
-
+  const [counter, setCounter] = useState(4); 
+  const [numbers, setNumbers] = useState([21, 14, 12, 6]); 
+  const [sortOrder, setSortOrder] = useState('desc'); 
   const addToList = () => {
     if (counter > 0) {
       // Prevent duplicates (optional requirement)
